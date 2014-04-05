@@ -1,0 +1,45 @@
+{
+  "name": "ecs",
+  "version": "0.0.0",
+  "description": "A game engine from the future",
+  "main": "dist/nuclear.dart",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "grunt githooks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Herzukl0tl/nuclear.dart.git"
+  },
+  "keywords": [
+    "game",
+    "engine",
+    "entity",
+    "component",
+    "system",
+    "ecs"
+  ],
+  "author": "herzukl0tl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Herzukl0tl/nuclear.dart/issues"
+  },
+  "homepage": "https://github.com/Herzukl0tl/nuclear.dart",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-dart2js": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-newer": "*",
+    "load-grunt-tasks": "*",
+    "grunt-bump": "*",
+    "gulp": "*",
+    "gulp-rename": "*",
+    "gulp-dart2js": "*",
+    "gulp-clean": "*",
+    "grunt-shell": "*",
+    "gulp-exec": "*",
+    "gulp-load-tasks": "*",
+    "gulp-bump": "*"
+  }
+}
